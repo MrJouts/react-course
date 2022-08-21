@@ -1,0 +1,27 @@
+li {
+  color: grey;
+  padding-top: 3px;
+  font-size: 15px;
+}
+
+.notification {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  min-width: 200px;
+  min-height: 80px;
+  text-align: center;
+}
+
+.notification-success {
+  border-color: green;
+  background-color: rgba(0, 128, 0, 0.100);
+}
+
+.notification-error {
+  border-color: tomato;
+  background-color: rgba(255, 99, 71, 0.100);
+}
